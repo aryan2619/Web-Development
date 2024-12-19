@@ -7,7 +7,7 @@ $(document).ready(function() {
 
         $.ajax({
             type: "POST",
-            url: "php/process.php",  // The PHP script to process the form
+            url: "process.php",  // The PHP script to process the form
             data: formData,
             success: function(response) {
                 // Display the response from the PHP script
